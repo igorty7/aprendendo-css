@@ -1,27 +1,34 @@
-*{
-    margin-top: 0;
-    padding: 0;
-}
+* { margin: 0; /* espaçamento externo */
+    padding: 0; /* espaçamento interno */
 
-h1{
-    margin: 50px;
-    padding: 50px;
-    color: violet;
-    background-color: rgb(0, 0, 0);
-    font-size: 50px;
-    text-transform:uppercase;
-    font-weight:bold;
-    font-family: monospace;
-    letter-spacing: 5px; 
-    text-align:right;
-    text-align:left;
-    text-align: center;
 
-    border-radius: 30px;
-    border: solid rgb(255, 0, 174) 5px;
-    box-shadow: violet 20px 20px 40px;
 
 }
-p{ 
-    text-align: justify;
+
+
+h1 { 
+color: red;/* cor da letra */
+background-color: blue;/* cor no fundo*/
+font-size: 50px;/* tamanho da fonte */
+margin: 50px;
+padding: 50px;
+text-transform: uppercase; /* maiusculo, minusculo */
+font-weight: bold;/* esspressura */
+font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;/* estilo da fonte */
+letter-spacing: 50px;/* espaçamento das letras */
+text-align: right; /* vai para direita */
+text-align: left; /* vai para a esquerda */
+text-align: center; /* vai para o centro */
+border-radius: 10px;/* arredondamentos das bordas */
+box-shadow:  rgba(39, 223, 39, 0.589) -10px 10px 20px; /* sombra das bordas */
+border: solid black 5px; /* borda */
+
+
 }
+
+p {
+    text-align: justify; /* responsivo */
+}
+
+
+
